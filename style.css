@@ -1,0 +1,450 @@
+body {
+  margin: 0px;
+  background-image: url("BFBPeedro.svg");
+}
+
+.container {
+  display: grid;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.facebook {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-right: 130px;
+}
+
+.FBPeedro {
+  width: 205px;
+  height: 55px;
+  margin-top: 20px;
+}
+
+.barraAzul {
+  background-image: url("Peedro.svg");
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "facebook theMagic";
+  padding: 0px 230px;
+  padding-bottom: 5px;
+}
+
+.theMagic {
+  padding-top: 13px;
+  display: grid;
+  grid-template-rows: 20px 1fr 22.5px;
+  grid-template-areas: "theText"
+                       "theCore"
+                       "forgotten";
+  padding-left: 195px;
+}
+
+.theText {
+  display: grid;
+  grid-template-columns: 187px 1fr;
+  grid-template-areas: "emailText pass";
+  justify-content: center;
+  font-size: 12px;
+  color: white;
+  height: 17px;
+}
+
+.emailText {
+  width: 240px;
+}
+
+.theCore {
+  display: grid;
+  grid-template-columns: 185px 160px 1fr;
+  grid-template-areas: "email password submit";
+}
+
+.email {
+  width: 142px;
+  height: 15px;
+  padding: 3px;
+  border: 1px;
+  margin-right: 35px;
+  border: 1px solid #2D4373;
+}
+
+.password {
+  width: 142px;
+  height: 15px;
+  padding: 3px;
+  border: 1px;
+  margin-right: 60px;
+  border: 1px solid #2D4373;
+}
+
+.submit {
+  width: 80px;
+  height: 18px;
+  border: 0;
+  padding: 3px 6px 0px 6px;
+  border: 1px solid #2D4373;
+  border-radius: 2.5px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 11px;
+  background-color: #496DBA;
+  font-weight: 500;
+  align-items: center;
+}
+
+.submit:hover {
+  background: #3B5998;
+}
+
+.forgottenText:hover {
+  text-decoration: underline;
+  color: #9cb4d8;
+}
+
+.forgottenText {
+  font-size: 12px;
+  color: #9cb4d8;
+  text-decoration: none;
+}
+
+.forgotten {
+  width: 493px;
+  height: 16px;
+  text-align: center;
+  padding-left: 0px;
+  padding-top: 4px;
+}
+
+.elResto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "worldWideXD elRegistro";
+  margin: 0px 230px;
+  font-family: 'system-ui', '-apple-system', 'BlinkMacSystemFont', '.SFNSText-Regular', sans-serif;
+}
+
+.worldWideXD {
+  margin-top: 40px;
+  width: 580px;
+}
+
+.theImage {
+  width: 537px;
+  height: 195px;
+}
+
+.textWorldWide {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.openAccount {
+  font-size: 36px;
+  color: #333;
+  font-weight: 550;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.itsFree {
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0px 0px;
+}
+
+.elRegistro {
+  display: grid;
+  grid-auto-rows: 65px 45px 45px 1fr 100px 63px 105px;
+  grid-template-areas: "openAccount"
+                       "itsFree"
+                       "formulario"
+                       "birthDate"
+                       "terminos"
+                       "registerButton"
+                       "character";
+}
+
+.formulario {
+  display: grid;
+}
+
+.double {
+  display: grid;
+  grid-template-columns: 227px 1fr;
+
+}
+
+.nombre input, .apellido input {
+  width: 194px;
+  height: 21px;
+  padding: 8px 10px;
+}
+
+.nombre {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+
+.correo input, .formPass input {
+  width: 421px;
+  height: 21px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+
+input[type = "text"] {
+  border: 0.5px solid #AFBBCE;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input::placeholder{
+  color: #878787;
+}
+
+.formPass input {
+  border: 0.5px solid #AFBBCE;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.birthDate {
+  margin-top: 90px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 190px 153px;
+  grid-template-areas:
+}
+
+.textDate {
+  font-weight: 400;
+  color: #1d2129;
+  font-size: 18px;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.textDate p {
+  margin-bottom: 7px;
+}
+
+.dateForm {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.question {
+  grid-column: 2;
+  line-height: .90;
+  grid-row: 2;
+}
+
+.question a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #385898;
+  height: 20px;
+  justify-content: flex-start;
+}
+
+select {
+  font-size: normal;
+  border: 1px solid #ccd0d5;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  height: 30px;
+}
+
+.gender {
+  font-size: 18px;
+  font-weight: normal;
+  align-items: center;
+}
+
+.terminos {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin: 11px 0px;
+}
+
+.terminos a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.terminos a:hover {
+  text-decoration: underline;
+}
+
+.registerButton {
+  border-radius: 5px;
+  border: 1px solid #3b6e22;
+  width: 192px;
+  height: 39px;
+  background-image: url("RegisterPedro.jpg");
+  align-items: center;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+  font-family: 'Lato', sans-serif;
+}
+
+.registerButton:hover {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #3b6e22;
+  background-image: url("OnRegisterPedro.png");
+}
+
+.registerButton p {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 19px;
+  margin: 0px;
+  margin-top: 7px;
+}
+
+.character {
+  color: #666;
+  font-size: 13px;
+  font-weight: bold;
+  width: 400px;
+}
+
+.character a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.character a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 55px
+                         75px
+                         110px
+                         115px
+                         55px
+                         55px
+                         40px
+                         50px
+                         30px
+                         70px
+                         1fr;
+  font-size: 12px;
+  margin: 0px 150px;
+  border-bottom: 1px solid #dddfe2;
+  padding-bottom: 8px;
+  margin-left: 225px;
+  width: 990px;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+  color: #385898;
+}
+
+.Espaniol {
+  color: #737373;
+}
+
+.footerButton input {
+  width: 30px;
+  height: 20px;
+  color: #737373;
+  border-radius: 3px;
+  border: 1px solid #C0C6CB;
+  background-color: #F2F4F5;
+  background-image: url("plus.svg");
+}
+
+.footerButton input:hover {
+  background-color: #E3E5E6;
+  cursor: pointer;
+}
+
+.footerX2 {
+  font-size: 12px;
+  margin: 8px 267px 0px 180px;
+}
+
+.footerX2 ul {
+  list-style: none;
+  display: grid;
+  margin: 5px;
+}
+
+.footerX2 a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.footerX2 a:hover {
+  text-decoration: underline;
+  color: #385898;
+}
+
+.primera {
+  display: inherit;
+  grid-template-columns: 80px
+                         100px
+                         80px
+                         100px
+                         100px
+                         60px
+                         60px
+                         60px
+                         140px
+                         80px
+                         100px;
+}
+
+.segunda {
+  display: inherit;
+  grid-template-columns: 85px
+                         85px
+                         60px
+                         75px
+                         55px
+                         165px
+                         85px
+                         95px
+                         95px
+                         105px
+                         100px;
+}
+
+.tercera {
+  display: inherit;
+  grid-template-columns: 85px
+                         85px
+                         150px
+                         90px
+                         150px
+                         165px
+                         85px;
+}
+
+.cherry {
+  font-size: 12px;
+  margin: 16px 180px 0px 225px;
+  color: #737373;
+}
